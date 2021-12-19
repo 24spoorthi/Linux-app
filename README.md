@@ -17,12 +17,14 @@ The example program is part of a system for monitoring a running GNU/Linux syste
 
 Clone the repository into your local machine and follow the steps below:
 -> Building the program is easy, from the directory containing these sources invoke make.
-  %make
+ 
+ %make
   
 -> To run the server, simply invoke the server executable.
 If you do not specify the server port number with the --port ( -p ) option, Linux will choose one for you; in this case, specify --verbose ( -v ) to make the server print out the port number in use.
 
 If you specify a different address, it must be an address that corresponds to your computer:
+  
   % ./server --address localhost --port 4000
   
 The server is now running. Open a browser window, and attempt to contact the server at this port number.Request a page whose name matches one of the modules.

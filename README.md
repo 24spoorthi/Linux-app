@@ -25,13 +25,18 @@ If you do not specify the server port number with the --port ( -p ) option, Linu
 If you specify a different address, it must be an address that corresponds to your computer:
   % ./server --address localhost --port 4000
   
-The server is now running. Open a browser window, and attempt to contact the server at this port number.Request a page whose name matches one of the modules. 
+The server is now running. Open a browser window, and attempt to contact the server at this port number.Request a page whose name matches one of the modules.
+
 For instance, 
+
 -> to invoke the diskfree.so module, use this URL:
   http://localhost:4000/diskfree
+  
 -> to invoke the issue.so module
   http://localhost:4000/issue
+  
 -> to invoke the processes.so module
   http://localhost:4000/processes
+  
 -> to invoke the time.so module
   http://localhost:4000/time
